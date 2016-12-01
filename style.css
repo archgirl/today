@@ -3,7 +3,6 @@ body {
   font-family: monospace;
   text-align: center;
   font-size: 1.2em;
-  position: relative;
 }
 
 a {
@@ -19,39 +18,39 @@ a {
   min-height: 400px;
 }
 
-/* Calendar Today */
+/* Today */
 
 #calendar {
-  width: 210px;
-  height: 180px;
-  background-color: #fff;
-  color: #666;
-  border-radius: 5%;
-  border: 5px solid #666;
-  padding: 10px;
+width: 210px;
+height: 180px;
+background-color: #fff;
+color: #666;
+border-radius: 5%;
+border: 5px solid #666;
+padding: 10px;
 }
 
 #calendar > p {
-  font-family: Helvetica, sans-serif;
-  margin: 0;
-  color: #666;
-  text-align: center;
-  padding: 10px;
-  padding-top: 12px;
+font-family: Helvetica, sans-serif;
+margin: 0;
+color: #666;
+text-align: center;
+padding: 10px;
+padding-top: 12px;
 }
 
 #calendar-day {
-  font-size: 1.2em;
-  font-weight: 300;
+font-size: 1.2em;
+font-weight: 300;
 }
 
 #calendar-month-year {
-  font-size: 0.9em;
-  font-weight: 300;
+font-size: 0.9em;
+font-weight: 300;
 }
 
 #calendar-date {
-  font-size: 3.2em;
-  font-weight: 700;
-  padding: 10px 0 0 0;
+font-size: 3.2em;
+font-weight: 700;
+padding: 10px 0 0 0;
 }
